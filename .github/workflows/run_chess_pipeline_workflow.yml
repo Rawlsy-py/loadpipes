@@ -1,7 +1,7 @@
 name: Run chess_pipeline pipeline from chess_pipeline.py
 'on':
   schedule:
-  - cron: '*/30 * * * *'
+  - cron: '0 */12 * * *'
   workflow_dispatch: null
 env:
   DESTINATION__POSTGRES__CREDENTIALS__DATABASE: defaultdb
